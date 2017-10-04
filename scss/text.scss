@@ -1,4 +1,7 @@
 .text {
+  margin-bottom: $gutter / 2;
+
   &__p {
+    margin-bottom: $gutter / 2;
   }
 }
