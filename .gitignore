@@ -1,4 +1,4 @@
 /node_modules
 *.mp4
 .stylelintrc
-.DC_STORE
+.DS_STORE
