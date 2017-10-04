@@ -1,8 +1,4 @@
 node-modules
 *.mp4
-<<<<<<< HEAD
-=======
-.DS_Store
->>>>>>> bdb761e7f44f1faa32da2ab954dbb5ae035e4cab
 .stylelintrc
 .DC_STORE
