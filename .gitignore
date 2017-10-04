@@ -1,2 +1,4 @@
 node-modules
 *.mp4
+.stylelintrc
+.DC_STORE
