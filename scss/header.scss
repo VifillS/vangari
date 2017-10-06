@@ -1,20 +1,20 @@
 header {
     width: 100%;
-    height: 600;
+    height: 900px;
     background: transparent url(/resources/bg.jpg) fixed 50% 50%;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     margin-bottom: 2em;
+    align-items: center;
     & div {
         margin: auto;
-        text-shadow: 3px 3px 0px rgba(255, 255, 255, 1);
     }
     & div h1 {
         font-size: 4em;
     }
     & div h3 {
-      margin: auto;
+      text-align: center;
         font-size: 2em;
-        font-style: italic;
     }
 }

@@ -2,3 +2,4 @@
 *.mp4
 .stylelintrc
 .DS_STORE
+styles.css
