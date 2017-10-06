@@ -1,4 +1,5 @@
 /node_modules
+/instr
 *.mp4
 .stylelintrc
 stylelintrc
