@@ -1,10 +1,11 @@
 header {
     max-width: $max-width;
     width: 100%;
-    height: 900px;
+    height:800px;
     background: transparent url(/resources/bg.jpg) fixed 50% 50%;
-    background-size: contain;
+    background-size: cover;
     display: flex;
+    
     flex-direction: column;
     margin-bottom: 2em;
     align-items: center;
@@ -13,24 +14,27 @@ header {
         from {opacity: 0;}
         to {opacity: 1;}
     }
-    & div {
+    & .content {
         margin: auto;
+        transition: opacity=0 1s ease-in;               
         align-items: center;
+        h1 {  
+            font-size: 5em;
+            text-align: center;
+            // animation-name: birtast;
+            // animation-duration: 3s;
+            // animation-delay: 5s;
+            transition-delay: 1s;  
+        opacity: 1;        
+        }
+        h2 {
+            text-align: center;
+            font-size: 2em;  
+            transition-delay: 2s;      
+            
+        }
     }
-    & div h1 {  
-        font-size: 5em;
-        text-align: center;
-        animation-name: birtast;
-        animation-duration: 3s;
-        animation-delay: 5s;       
-    }
-    & div h2 {
-        text-align: center;
-        font-size: 2em;
-        animation-name: birtast;
-        animation-duration: 3s;
-        animation-delay: 2s;      
-    }
+
     & .navbar {
         overflow: hidden;
         background-color: #000;
@@ -41,19 +45,20 @@ header {
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
     }
-    .navbar p {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px;
-    }
     .navbar a {
-        float: right;
+        float: left;
         display: flex;
         color: #f2f2f2;
         text-align: center;
         padding: 14px;
         text-decoration: none;
     }
+    // .navbar a {
+    //     float: right;
+    //     display: flex;
+    //     color: #f2f2f2;
+    //     text-align: center;
+    //     padding: 14px;
+    //     text-decoration: none;
+    // }
 }
