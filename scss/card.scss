@@ -2,55 +2,35 @@
   width: 100%;
   min-width: 200px;
   max-width: 800px;
-  align-content: center;
   margin: auto;
   overflow: hidden;
-
-  @media (min-width: 600px) {
-    &--wide {
-      display: flex;
-    }
-
-    &--wide  &__content {
-      align-items: flex-start;
-    }
-
-    &--wide &__img {
-      min-width: 400px;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-
-  &:hover {
-    background-color: #ddd;
-  }
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
   &__heading {
     width: 100%;
-    margin-bottom: 15px;
     font-family: Merriweather, georgia, serif;
     font-size: 1rem;
-
-    word-break: break-all;
+    margin: auto;
   }
 
   &__content {
-    display: flex;
     padding: 15px;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
   }
 
   &__text {
-    margin-bottom: 30px;
+    margin: auto;
   }
 
   &__img {
-    width: 100%;
+    width: 80%;
     min-width: 200px;
     max-width: 100%;
     border-radius: 50%;
+    // margin: $gutter/2;
   }
 
 }
