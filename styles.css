@@ -164,11 +164,9 @@ header {
   width: 100%;
   min-width: 200px;
   max-width: 800px;
-  overflow: hidden;
-  background-color: #eee;
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  transition: background-color 500ms ease; }
+  align-content: center;
+  margin: auto;
+  overflow: hidden; }
   @media (min-width: 600px) {
     .card--wide {
       display: flex; }
@@ -184,7 +182,7 @@ header {
     width: 100%;
     margin-bottom: 15px;
     font-family: Merriweather, georgia, serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     word-break: break-all; }
   .card__content {
     display: flex;
@@ -196,7 +194,8 @@ header {
   .card__img {
     width: 100%;
     min-width: 200px;
-    max-width: 100%; }
+    max-width: 100%;
+    border-radius: 50%; }
 
 .cardlist__row {
   display: flex;
