@@ -2,11 +2,84 @@
 <html class="grid" lang="is">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fooþjónustan</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="grid.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Kaupa</title>
+   <!-- <link rel="stylesheet" href="styles.css"> -->
+   <link rel="stylesheet" href="grid.css">
 </head>
 <main>
    <header>
+      <a href="index.html">Fooþjónustan</a>
+      <a href="um.html">Um</a>
+      <a href="kaupa.html">Kaupa</a>
+   </header>
+   <body>
+      <section>
+         <h3>Persónuupplýsingar</h3>
+         <form>
+            Nafn:<br />
+            <input type="text" /><br />
+            Kennitala:<br />
+            <input type="text" placeholder="123456-7890" /><br />
+            Kyn:<br />
+            <input type="radio" label="Karl" />Karl<br />
+            <input type="radio" value="Kona" />Kona<br />
+            <input type="radio" value="Annað" />Annað<br />
+            Sími:<br />
+            <input type="tel" placeholder="+ 354 812 3456"/><br />
+            Heimilisfang:<br />
+            <input type="text" /><br />
+            <input type="checkbox" checked/>Skrá mig á póstlista<br />
+         </form>
+      </section>
+      <section>
+         <h3>Greiðslupplýsingar</h3>
+         Greiða með:<br />
+         <select>
+            <option value="kredit" selected>Kreditkorti</option>
+            <option value="cash" selected>Reiðufé</option>
+            <option value="millif" selected>Millifærsla</option>
+         </select>
+         <br />Nafn á korti:<br />
+         <input type="text" /><br />
+         Kortanúmer:<br />
+         <input type="text" placeholder="5999-9999-9999-9999" pattern="([0-9]{4}-)[0-9]" title="Ekki gilt kreditkortanúmer"/><br />
+         Gildistími:<br />
+         <select>
+            <option value='01'>01</option>
+            <option value='02'>02</option>
+            <option value='03'>03</option>
+            <option value='04'>04</option>
+            <option value='05'>05</option>
+            <option value='06'>06</option>
+            <option value='07'>07</option>
+            <option value='08'>08</option>
+            <option value='09'>09</option>
+            <option value='10'>10</option>
+            <option value='11'>11</option>
+            <option value='12'>12</option>
+         </select>
+         <select>
+            <option value="17">2017</option>
+            <option value="18">2018</option>
+            <option value="19">2019</option>
+            <option value="20">2020</option>
+         </select>
+      </section>
+      <input type="submit" title="Panta" />
+   </body>
+   <footer>
+      <div>
+         Fooþjónustan<br />
+         123-4567
+      </div>
+      <div>
+         Opið 12-13 alla daga<br />
+         Bargata 1<br />
+         900 Foobar
+      </div>
+      © Fooþjónustan 2017
+   </footer>
+</main>
+</html>
