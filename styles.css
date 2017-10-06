@@ -94,11 +94,8 @@ main {
 
 header {
   width: 100%;
-<<<<<<< HEAD
-  height: 600;
-=======
+
   height: 900px;
->>>>>>> 3d1b7085a903261b24d124530e4243a732c37897
   background: transparent url(/resources/bg.jpg) fixed 50% 50%;
   background-size: cover;
   display: flex;
