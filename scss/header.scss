@@ -37,6 +37,7 @@ header {
         opacity: 0.8;
         position: fixed;
         top: 0;
+        max-width: $max-width;
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
     }
