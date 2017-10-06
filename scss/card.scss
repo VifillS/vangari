@@ -2,13 +2,10 @@
   width: 100%;
   min-width: 200px;
   max-width: 800px;
-
+  align-content: center;
+  margin: auto;
   overflow: hidden;
 
-  background-color: #eee;
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  transition: background-color 500ms ease;
   @media (min-width: 600px) {
     &--wide {
       display: flex;
@@ -33,7 +30,7 @@
     width: 100%;
     margin-bottom: 15px;
     font-family: Merriweather, georgia, serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     word-break: break-all;
   }
@@ -53,7 +50,7 @@
     width: 100%;
     min-width: 200px;
     max-width: 100%;
-
+    border-radius: 50%;
   }
 
 }
