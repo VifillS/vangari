@@ -1,54 +1,46 @@
-// breytur fyrir mikið notaðar stærðir
-$max-width: 1200px;
-$gutter: 20px;
+@import 'scss/variables';
 
-/* setjum box-sizing: border-box; á allt */
-html { /* stylelint-disable-line */
-  box-sizing: border-box;
-}
-
-*, *:before, *:after { /* stylelint-disable-line */
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-
-  /* fjarlægjum margin og padding */
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-html { /* stylelint-disable-line */
+html {
   // til þess að texti liggi ekki upp við brún á viewport þegar
   // við erum < 1200px breiðum skjá, setjum margin á báða kanta html
   // ruglar líka ekki í grid overlay
-  margin-right: $gutter;
-  margin-left: $gutter;
-
+  box-sizing: border-box;
   font-family: Lato, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  margin-left: $gutter;
+  margin-right: $gutter;
 
   @media (min-width: $max-width) {
     margin: 0;
   }
 }
 
-img { /* stylelint-disable-line */
+img {
   max-width: 100%;
 }
 
-main { /* stylelint-disable-line */
-  max-width: $max-width;
+main {
   margin: 0 auto;
-
+  max-width: $max-width;
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
   overflow-x: hidden;
 }
 
-@import "scss/grid";
-@import "scss/header";
-@import "scss/heading";
-@import "scss/text";
-@import "scss/button";
-@import "scss/card";
-@import "scss/cardlist";
-@import "scss/footer";
+@import 'scss/grid';
+@import 'scss/header';
+@import 'scss/heading';
+@import 'scss/text';
+@import 'scss/button';
+@import 'scss/card';
+@import 'scss/cardlist';
+@import 'scss/footer';

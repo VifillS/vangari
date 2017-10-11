@@ -1,4 +1,16 @@
+@import 'scss/variables';
+
 footer {
-   background-color: #262626;
-   padding: 
+  background-color: #262626;
+  color: #fff;
+  font: $mfont;
+  padding: 2 * $gutter;
+
+  div {
+    margin: 0 auto;
+  }
+
+  p {
+    color: #ff7f00;
+  }
 }
