@@ -25,6 +25,11 @@ header {
     margin: $gutter/2;
     padding: 1em;
     text-decoration: none;
+    right:0;
+  }
+  .home--button {
+    font-family: $hfont;
+    left: 0;
   }
   .button--header {
     background-color: #817A7A; 
