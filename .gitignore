@@ -6,3 +6,4 @@ stylelintrc
 styles.css
 .DS_Store
 *.swp
+*.txt
