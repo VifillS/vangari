@@ -1,24 +1,26 @@
+@import 'scss/variables';
+
 .card {
   width: 100%;
   min-width: 200px;
   max-width: 800px;
-  margin: auto;
+  // margin: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   
   &__heading {
-    width: 100%;
-    font-family: Merriweather, georgia, serif;
+    // width: 100%;
+    font-family: $mfont;
     font-size: 1rem;
-    margin: auto;
   }
 
   &__content {
-    padding: 15px;
+    padding: $gutter;
     flex-direction: column;
     align-content: center;
+    text-align: center;
   }
 
   &__text {
@@ -26,11 +28,13 @@
   }
 
   &__img {
-    width: 80%;
+    width: 100%;
     min-width: 200px;
-    max-width: 100%;
     border-radius: 50%;
     // margin: $gutter/2;
+  }
+  &__footnote{
+    font-size: 12px;
   }
 
 }

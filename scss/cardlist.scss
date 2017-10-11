@@ -1,10 +1,13 @@
+@import 'scss/variables';
+
 .cardlist {
     &__row {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: wrap;  
       margin-right: -($gutter / 2);
       margin-bottom: $gutter;
       margin-left: -($gutter / 2);
+      justify-content: space-around;
     }
   
     &__row &__col {
