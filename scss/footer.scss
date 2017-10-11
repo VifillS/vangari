@@ -3,14 +3,30 @@
 footer {
   background-color: #262626;
   color: #fff;
-  font: $mfont;
-  padding: 2 * $gutter;
+  display: flex;
+  flex-direction: column;
+  font-family: $mfont;
+  padding: $gutter;
 
   div {
+    display: flex;
+    flex-direction: row;
     margin: 0 auto;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+      align-items: center;
+      padding: 0 (4 * $gutter);
+    }
   }
 
-  p {
-    color: #ff7f00;
+  .footnote {
+    border-top: 1px solid #908e8a;
+    color: #908e8a;
+    margin-top: 2 * $gutter;
+    padding-top: $gutter;
+    text-align: center;
   }
 }
