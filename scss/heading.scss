@@ -1,35 +1,23 @@
 .heading {
-  border: 0;
-  font-family: $hfont;
-  font-size: 2rem;
-  padding: 0;
-  width: 100%;
-
-  &--one {
-    font-size: 3rem;
-  }
-
-  &--two {
+    border: 0;
+    font-family: $hfont;
     font-size: 2rem;
-    border: none;
-
+    padding: 0;
+    width: 100%;
+    
     &--one {
-      font-size: 4rem;
+        font-size: 4rem;
     }
-
     &--two {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-
     &--three {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-    &--bold{
-      font-weight: bold;
+    &--bold {
+        font-weight: bold;
     }
-  }
-
-  &--three {
-    font-size: 1rem;
-  }
+    &--three {
+        font-size: 1rem;
+    }
 }
