@@ -24,13 +24,14 @@
   }
 
   &--inverted {
-    color: #666;
-    background-color: #eee;
+    background-color: #666;
+    border: 1px solid #666;
+    border-radius: 4px;
+    transition: background-color 500ms;
   }
 
   &--inverted:hover {
-    color: #333;
-    background-color: #ccc;
+    background-color: #000;
   }
 
   &--disabled,
