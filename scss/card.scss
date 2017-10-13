@@ -1,40 +1,32 @@
 @import 'scss/variables';
-
 .card {
   width: 100%;
   min-width: 200px;
-  max-width: 800px;
-  // margin: auto;
+  max-width: 800px; // margin: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   &__heading {
     // width: 100%;
     font-family: $mfont;
     font-size: 1rem;
   }
-
   &__content {
     padding: $gutter;
     flex-direction: column;
     align-content: center;
     text-align: center;
   }
-
   &__text {
     margin: auto;
   }
-
   &__img {
     width: 100%;
     min-width: 200px;
-    border-radius: 50%;
-    // margin: $gutter/2;
+    border-radius: 50%; // margin: $gutter/2;
   }
-  &__footnote{
+  &__footnote {
     font-size: 12px;
   }
-
 }
