@@ -11,7 +11,7 @@ header {
     top: 0; // max-width: $max-width;
     display: flex;
     width: 100%;
-    padding: $gutter/2;
+    padding: $gutter/2 $gutter;
     overflow: hidden;
     flex-direction: row;
     justify-content: space-between;
@@ -21,7 +21,6 @@ header {
     position: fixed;
     top: 0; // max-width: $max-width;
     width: 100%;
-    padding: $gutter / 2;
 
     a {
       color: #fff;

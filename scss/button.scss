@@ -1,22 +1,21 @@
+@import 'scss/variables';
+
 .button {
+  background-color: #666;
+  border-radius: 4px;
+  color: #eee  ;
+  cursor: pointer;
   display: inline-block;
-  width: 100%;
-  max-width: 150px;
-  padding: 10px 5px;
-  margin: 0;
-  overflow: hidden;
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: $mfont;
   font-size: 2rem;
-  color: #eee;
+  margin: 0;
+  max-width: 150px;
+  overflow: hidden;
+  padding: 10px 5px;
   text-align: center;
   text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  cursor: pointer;
-  background-color: #666;
-  border: 1px solid #666;
-  border-radius: 2px;
   transition: background-color 500ms;
+  width: 100%;
 
   &:hover {
     background-color: #333;
@@ -34,10 +33,4 @@
     background-color: #000;
   }
 
-  &--disabled,
-  &--disabled:hover {
-    color: #999;
-    background-color: #eee;
-    border-color: #eee;
-  }
 }
