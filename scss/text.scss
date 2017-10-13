@@ -1,7 +1,27 @@
 .text {
-  margin-bottom: $gutter / 2;
+  margin-bottom: $gutter;
+  padding-bottom: $gutter;
 
   &__p {
-    margin-bottom: $gutter / 2;
+    margin-bottom: $gutter;
+    margin-top: $gutter;    
   }
+
+  .quote {
+    float: right;
+    padding: $gutter;
+    margin: 0 $gutter/2;
+    font-size: 1.5em;
+    font-style: italic;
+    & .content{
+      padding: $gutter;
+    }
+  }
+
+  .footnote{
+    font-size: 14px;   
+    font-style: normal;
+    margin:  $gutter 0;
+  }
+
 }
