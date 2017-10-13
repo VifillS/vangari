@@ -19,18 +19,18 @@
   transition: background-color 500ms;
 
   &:hover {
-    color: #eee;
     background-color: #333;
+    color: #eee;
   }
 
   &--inverted {
-    color: #666;
     background-color: #eee;
+    color: #666;
   }
 
   &--inverted:hover {
-    color: #333;
     background-color: #ccc;
+    color: #333;
   }
 
   &--disabled,

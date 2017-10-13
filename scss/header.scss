@@ -1,9 +1,11 @@
 @import 'scss/variables';
+
 header {
   // max-width: $max-width;
   width: 100%;
   margin-bottom: 2em;
   align-items: center;
+
   .navbar {
     display: flex;
     flex-direction: row;
@@ -11,27 +13,27 @@ header {
     align-items: center;
     overflow: hidden;
     background-color: #000;
-    opacity: 0.8;
+    opacity: .8;
     position: fixed;
     top: 0; // max-width: $max-width;
     width: 100%;
-    padding: $gutter/2;
-  }
-  .navbar a {
+    padding: $gutter / 2;
     color: #f2f2f2;
     text-align: center;
     margin: $gutter;
-    padding: 0.5em 1em;
     text-decoration: none;
     right: 0;
   }
+
   .item--left {
     font-family: $hfont;
     font-size: 1.5em;
   }
+
   .menu--right {
     // margin-right:$gutter;
   }
+
   .button--header {
     background-color: #817A7A;
     border-radius: 4px;
