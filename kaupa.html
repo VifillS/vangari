@@ -2,57 +2,63 @@
 <html class="grid" lang="is">
 
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Kaupa</title>
-   <link rel="stylesheet" href="styles.css">
-   <link rel="stylesheet" href="grid.css">
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaupa</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="grid.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 </head>
+
 <body>
-   <header>
-      <nav>
-         <a href="index.html">Fooþjónustan</a>
-         <a href="um.html">Um</a>
-         <a href="kaupa.html">Kaupa</a>
-      </nav>
-   </header>
-   <div class="topping">
-      <h1>Kaupa</h1>
-   </div>
-   <main>
+  <header>
+    <div class="navbar">
       <div>
-         <h3>Persónuupplýsingar</h3>
-         <form>
-            Nafn:<br />
-            <input type="text" /><br />
-            Kennitala:<br />
-            <input type="text" placeholder="123456-7890" /><br />
-            Kyn:<br />
-            <input type="radio" value="Karl" />Karl<br />
-            <input type="radio" value="Kona" />Kona<br />
-            <input type="radio" value="Annað" />Annað<br />
-            Sími:<br />
-            <input type="tel" placeholder="+ 354 812 3456"/><br />
-            Heimilisfang:<br />
-            <input type="text" /><br />
-            <input type="checkbox" checked/>Skrá mig á póstlista<br />
-         </form>
+        <a class="menu--left" href="index.html">Fooþjónustan</a>
       </div>
       <div>
-         <h3>Greiðslupplýsingar</h3>
-         Greiða með:<br />
-         <select>
+        <a class="menu--right " href="um.html">Um</a>
+        <a class="menu--right button--header" href="kaupa.html">Kaupa</a>
+      </div>
+    </div>
+  </header>
+  <div class="topping">
+    <h1>Kaupa</h1>
+  </div>
+  <main>
+    <div>
+      <h3>Persónuupplýsingar</h3>
+      <form>
+        Nafn:<br />
+        <input type="text" /><br /> Kennitala:
+        <br />
+        <input type="text" placeholder="123456-7890" /><br /> Kyn:
+        <br />
+        <input type="radio" value="Karl" />Karl<br />
+        <input type="radio" value="Kona" />Kona<br />
+        <input type="radio" value="Annað" />Annað<br /> Sími:
+        <br />
+        <input type="tel" placeholder="+ 354 812 3456" /><br /> Heimilisfang:
+        <br />
+        <input type="text" /><br />
+        <input type="checkbox" checked/>Skrá mig á póstlista<br />
+      </form>
+    </div>
+    <div>
+      <h3>Greiðslupplýsingar</h3>
+      Greiða með:<br />
+      <select>
             <option value="kredit" selected>Kreditkorti</option>
             <option value="cash" >Reiðufé</option>
             <option value="millif" >Millifærsla</option>
          </select>
-         <br />Nafn á korti:<br />
-         <input type="text" /><br />
-         Kortanúmer:<br />
-         <input type="text" placeholder="5999-9999-9999-9999" pattern="([0-9]{4}-)[0-9]" title="Ekki gilt kreditkortanúmer"/><br />
-         Gildistími:<br />
-         <select>
+      <br />Nafn á korti:<br />
+      <input type="text" /><br /> Kortanúmer:
+      <br />
+      <input type="text" placeholder="5999-9999-9999-9999" pattern="([0-9]{4}-)[0-9]" title="Ekki gilt kreditkortanúmer" /><br
+      /> Gildistími:
+      <br />
+      <select>
             <option value='01'>01</option>
             <option value='02'>02</option>
             <option value='03'>03</option>
@@ -66,28 +72,29 @@
             <option value='11'>11</option>
             <option value='12'>12</option>
          </select>
-         <select>
+      <select>
             <option value="17">2017</option>
             <option value="18">2018</option>
             <option value="19">2019</option>
             <option value="20">2020</option>
          </select>
+    </div>
+    <input type="submit" title="Panta" />
+  </main>
+  <footer>
+    <div>
+      <div class="column">
+        <p>Fooþjónustan</p>
+        <p>123-4567</p>
       </div>
-      <input type="submit" title="Panta" />
-   </main>
-   <footer>
-     <div>
-       <div class="column">
-         <p>Fooþjónustan</p>
-         <p>123-4567</p>
-       </div>
-       <div class="column">
-         <p>Opið 12-13 alla daga</p>
-         <p>Bargata 1</p>
-         <p>900 Foobar</p>
-       </div>
-     </div>
-      <p class="footnote">© Fooþjónustan 2017</p>
-    </footer>
+      <div class="column">
+        <p>Opið 12-13 alla daga</p>
+        <p>Bargata 1</p>
+        <p>900 Foobar</p>
+      </div>
+    </div>
+    <p class="footnote">© Fooþjónustan 2017</p>
+  </footer>
 </body>
+
 </html>
