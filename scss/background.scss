@@ -19,7 +19,7 @@
   margin: 0;
 }
 
-.content {
+.intro {
 
   @keyframes birtast {
     from {
@@ -60,4 +60,10 @@
     position: relative;
     margin: auto;
   }
+}
+
+.content {
+  color: #ffffff;
+  margin: auto auto auto $gutter;
+
 }
