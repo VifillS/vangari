@@ -19,8 +19,8 @@
   transition: background-color 500ms;
 
   &:hover {
-    color: #eee;
     background-color: #333;
+    color: #eee;
   }
 
   &--inverted {
