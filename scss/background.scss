@@ -2,7 +2,7 @@
 
 .bg--sub {
   width: 100%;
-  min-height: 800px;
+  min-height: 500px;
   display: flex;
   position: relative;
 
@@ -12,7 +12,7 @@
     background-size: cover;
     opacity: .5;
     position: absolute;
-    top: 0; bottom: 0; right: 0; left: 0;
+    top: -($gutter/2); bottom: 0; right: 0; left: 0;
     z-index: -1;
   }
 }
