@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="grid.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Roboto+Slab:400,700" rel="stylesheet">
-  
 </head>
 
 <body>
@@ -28,43 +27,49 @@
       </div>
     </div>
   </header>
-  <div class="topping">
-    <h1>Kaupa</h1>
-  </div>
   <main>
-    <div>
-      <h3>Persónuupplýsingar</h3>
-      <form>
-        Nafn:<br />
-        <input type="text" /><br /> Kennitala:
-        <br />
-        <input type="text" placeholder="123456-7890" /><br /> Kyn:
-        <br />
-        <input type="radio" value="Karl" />Karl<br />
-        <input type="radio" value="Kona" />Kona<br />
-        <input type="radio" value="Annað" />Annað<br /> Sími:
-        <br />
-        <input type="tel" placeholder="+ 354 812 3456" /><br /> Heimilisfang:
-        <br />
-        <input type="text" /><br />
-        <input type="checkbox" checked/>Skrá mig á póstlista<br />
-      </form>
-    </div>
-    <div>
-      <h3>Greiðslupplýsingar</h3>
-      Greiða með:<br />
-      <select>
+  <form>
+    <div class="rod">
+      <div class="sula">
+        <h3>Persónuupplýsingar</h3>
+        <div>Nafn:</div>
+        <input type="text"/>
+        <div>Kennitala:</div>
+        <input type="text" placeholder="123456-7890"/>
+        <div>
+          Kyn:<br/>
+          <input type="radio" value="Karl"/>Karl<br/>
+          <input type="radio" value="Kona"/>Kona<br/>
+          <input type="radio" value="Annað"/>Annað<br/>
+        </div>
+        <div>Sími:</div>
+        <input type="tel" placeholder="+ 354 812 3456"/>
+        <div>Heimilisfang:</div>
+        <input type="text"/>
+        <div><input type="checkbox" checked/>Skrá mig á póstlista</div>
+      </div>
+      <div class="sula">
+        <h3>Greiðslupplýsingar</h3>
+        <div>
+          Greiða með:<br/>
+          <select>
             <option value="kredit" selected>Kreditkorti</option>
             <option value="cash" >Reiðufé</option>
             <option value="millif" >Millifærsla</option>
-         </select>
-      <br />Nafn á korti:<br />
-      <input type="text" /><br /> Kortanúmer:
-      <br />
-      <input type="text" placeholder="5999-9999-9999-9999" pattern="([0-9]{4}-)[0-9]" title="Ekki gilt kreditkortanúmer" /><br
-      /> Gildistími:
-      <br />
-      <select>
+          </select>
+        </div>
+        <div>
+          Nafn á korti:<br/>
+          <input type="text"/>
+        </div>
+        <div>
+          Kortanúmer:<br/>
+          <input type="text" placeholder="5999-9999-9999-9999" pattern="([0-9]{4}-)[0-9]" title="Ekki gilt kreditkortanúmer" />
+        </div>
+        <div>
+          Gildistími:<br/>
+          Mán
+          <select>
             <option value='01'>01</option>
             <option value='02'>02</option>
             <option value='03'>03</option>
@@ -77,15 +82,19 @@
             <option value='10'>10</option>
             <option value='11'>11</option>
             <option value='12'>12</option>
-         </select>
-      <select>
+          </select>
+          Ár
+          <select>
             <option value="17">2017</option>
             <option value="18">2018</option>
             <option value="19">2019</option>
             <option value="20">2020</option>
-         </select>
+          </select>
+        </div>
+      </div>
     </div>
     <input type="submit" title="Panta" />
+  </form>
   </main>
   <footer>
     <div>
