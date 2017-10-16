@@ -6,9 +6,9 @@
     padding: 0;
     width: 100%;
     margin: $gutter 0 ;
-    word-break: break-all;
     &--one {
-        font-size: 3rem;
+    word-break: break-all;
+    font-size: 3rem;
     }
     &--two {
         font-size: 1.5rem;
@@ -19,4 +19,9 @@
     &--bold {
         font-weight: bold;
     }
+    &--italic {
+        font-style: italic;
+        font-weight: bold;
+    }
 }
+
