@@ -10,7 +10,7 @@
 
   .quote {
     float: right;
-    padding: $gutter;
+    // padding: $gutter;
     margin: 0 $gutter/2;
     font-size: 1.5em;
     font-style: italic;
@@ -25,4 +25,9 @@
     margin:  $gutter 0;
   }
 
+}
+article {
+  @media (max-width:599px) {
+    margin:0 $gutter;
+  }
 }
