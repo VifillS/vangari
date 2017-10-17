@@ -1,10 +1,32 @@
 form {
-  div .rod {
-    display: flex;
-    flex-direction: row;
-    div .sula {
+
+  div .cell {
+
+
+    input[type=text] {
+      width: 100%;
+    }
+
+    p {
+    }
+
+    div:not(.inline-cell) {
+      display: inline-block;
+
+    }
+
+    select:not(.date) {
+      width: 100%;
+    }
+    
+    .inline-cell {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
+      
+      select {
+        min-width: 30%;
+      }
     }
   }
+
 }
