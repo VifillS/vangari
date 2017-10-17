@@ -11,12 +11,23 @@
   &__wide {
     display: flex;
     flex-direction: row;
+    height: 160px;
+    &__heading {
+      // width: 100%;
+      font-size:1.5rem;
+      margin-bottom: 0;
+    }
     &__content {
       align-content: center;
+      width: 500px;
     }
     &__img {
       width: $gutter*5;
       padding: $gutter;
+    }
+    &__text {
+      // text-align: start;
+      padding: 0;
     }
   }
   &__heading {
