@@ -1,0 +1,36 @@
+@import 'scss/variables';
+
+.button {
+  background-color: #666;
+  border-radius: 4px;
+  color: #eee  ;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $mfont;
+  font-size: 2rem;
+  margin: 0;
+  max-width: 150px;
+  overflow: hidden;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 500ms;
+  width: 100%;
+
+  &:hover {
+    background-color: #333;
+    color: #eee;
+  }
+
+  &--inverted {
+    background-color: #666;
+    border: 1px solid #666;
+    border-radius: 4px;
+    transition: background-color 500ms;
+  }
+
+  &--inverted:hover {
+    background-color: #000;
+  }
+
+}
