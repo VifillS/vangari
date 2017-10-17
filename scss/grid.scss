@@ -180,10 +180,14 @@
   }
 
   &-sm {
-    @media (max-width: 599px) {
+    @media (max-width: 600px) {
       &-0 {
         margin-left: 0;
       }
+      &-1 {
+        margin-left: (1 / 12 * 100) * 1%;
+      }
+    
     }
   }
 }
