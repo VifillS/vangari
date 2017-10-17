@@ -144,3 +144,8 @@
   align-items: center;
   justify-content: center;
 }
+.image {
+  @media (max-width: 600px) {
+    padding: $gutter;
+  }
+}
