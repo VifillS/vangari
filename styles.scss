@@ -1,27 +1,27 @@
-@import 'scss/variables';
+@import "scss/variables";
 
 *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
 
-  html {
-    // til þess að texti liggi ekki upp við brún á viewport þegar
-    // við erum < 1200px breiðum skjá, setjum margin á báða kanta html
-    // ruglar líka ekki í grid overlay
-    box-sizing: border-box;
-    font-family: Lato, helvetica, arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    .umk {
-      margin-left: $gutter / 2;
-      margin-right: $gutter / 2 ;
-      @media (min-width: $max-width) {
-        margin: 0;
-      }
+html {
+  // til þess að texti liggi ekki upp við brún á viewport þegar
+  // við erum < 1200px breiðum skjá, setjum margin á báða kanta html
+  // ruglar líka ekki í grid overlay
+  box-sizing: border-box;
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  .umk {
+    margin-left: $gutter / 2;
+    margin-right: $gutter / 2 ;
+    @media (min-width: $max-width) {
+      margin: 0;
+    }
   }
 }
 
@@ -37,13 +37,13 @@ main {
   overflow-x: hidden;
 }
 
-@import 'scss/grid';
-@import 'scss/header';
-@import 'scss/heading';
-@import 'scss/text';
-@import 'scss/button';
-@import 'scss/card';
-@import 'scss/cardlist';
-@import 'scss/footer';
-@import 'scss/background';
-@import 'scss/form';
+@import "scss/grid";
+@import "scss/header";
+@import "scss/heading";
+@import "scss/text";
+@import "scss/button";
+@import "scss/card";
+@import "scss/cardlist";
+@import "scss/footer";
+@import "scss/background";
+@import "scss/form";
