@@ -3,6 +3,7 @@
 footer {
   display: flex;
   padding: $gutter;
+  margin-top: 2 * $gutter;
   font-family: $mfont;
   color: #fff;
   flex-direction: column;
