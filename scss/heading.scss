@@ -9,9 +9,14 @@
     &--one {
     word-break: break-all;
     font-size: 3rem;
+    &--front{
+    font-size: 4rem;
+    padding-bottom: 2 * $gutter;
+    
+    }
     }
     &--two {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     &--three {
         font-size: 1rem;
@@ -22,6 +27,7 @@
     &--italic {
         font-style: italic;
         font-weight: bold;
+        font-size: 1.5rem;
     }
 }
 

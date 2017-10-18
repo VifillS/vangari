@@ -117,6 +117,13 @@
       }
     }
   }
+  &-sss {
+    @media (max-width: 600px) {
+      &-12 {
+        @include columns(12);
+      }
+    }
+  }
   &-ss {
     @media (max-width: 400px) {
       &-12 {
