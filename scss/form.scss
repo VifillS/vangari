@@ -3,11 +3,27 @@
 form {
   margin-bottom: 4 * $gutter;
 
+  h3 {
+    margin-bottom: $gutter;
+    font-family: $hfont;
+    font-weight: normal;
+  }
   div .cell {
-
+    margin-bottom: $gutter;
 
     input[type=text] {
       width: 100%;
+    }
+
+    input[type=radio], input[type=checkbox] {
+      margin-right: 1rem;
+      margin-bottom: $gutter / 2;
+      margin-top: $gutter / 2;
+    }
+
+    input {
+      font: inherit;
+      border-radius: 4px;
     }
 
     p {
@@ -20,6 +36,7 @@ form {
 
     select:not(.date) {
       width: 100%;
+      font: inherit;
     }
 
     .inline-cell {
@@ -27,6 +44,7 @@ form {
       justify-content: space-between;
 
       select {
+        font: inherit;
         width: 30%;
       }
     }
