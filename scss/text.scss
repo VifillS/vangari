@@ -28,7 +28,8 @@
 }
 
 article {
-  @media (max-width: 600px) {
-    margin: 0 $gutter;
+  margin: 0 $gutter/2;
+  @media (min-width: 1200px) {
+    margin: 0;
   }
 }
