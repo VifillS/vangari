@@ -8,6 +8,7 @@ form {
     font-family: $hfont;
     font-weight: normal;
   }
+
   div .cell {
     margin-bottom: $gutter;
 
@@ -52,7 +53,7 @@ form {
 
   input[type=submit] {
     font-size: 1rem;
-    padding: 0.5rem 0; 
+    padding: 0.5rem 0;
     border-width: 0px;
     border-radius: 2px;
     min-width: 250px;

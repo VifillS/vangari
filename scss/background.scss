@@ -1,34 +1,34 @@
-@import 'scss/variables';
+@import "scss/variables";
 
 .bg--sub {
+  position: relative;
+  display: flex;
   width: 100%;
   min-height: 500px;
-  display: flex;
-  position: relative;
-  background-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .other--bg {
-  background: transparent url('resources/bg-subpage.jpg') fixed 50% 50%;
+  background: transparent url("resources/bg-subpage.jpg") fixed 50% 50%;
   background-size: cover;
 }
 
 .index--bg {
-  background: transparent url('resources/bg.jpg') fixed 50% 50%;
+  background: transparent url("resources/bg.jpg") fixed 50% 50%;
   background-size: cover;
 
   @media (max-width: 400px) {
-    background: transparent url('resources/bg.jpg') fixed;
+    background: transparent url("resources/bg.jpg") fixed;
   }
 }
 
 .front {
   // max-width: $max-width;
-  width: 100%;
-  display: flex;
-  min-height: 600px;
   position: relative;
-  background-color: rgba(255,255,255, 0.3);
+  display: flex;
+  width: 100%;
+  min-height: 600px;
+  background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -45,38 +45,39 @@
   }
 
   margin: auto;
+  font-family: $hfont;
+  text-align: center;
   transition: opacity 1.5s ease-in;
   align-items: center;
-  text-align: center;
-  font-family: $hfont;
+
   h2 {
+    opacity: 0;
     animation: birtast 1.5s;
+    animation-fill-mode: forwards;
     animation-delay: 1s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
   }
+
   h1 {
+    opacity: 0;
     animation: birtast 1.5s;
+    animation-fill-mode: forwards;
     animation-delay: 2s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
   }
 
   .button {
-    animation: birtast 1.5s;
-    animation-delay: 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
     position: relative;
     margin: auto;
+    opacity: 0;
+    animation: birtast 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
   }
 }
 
 .content {
-  color: #ffffff;
   margin: auto auto auto $gutter;
-
+  color: #fff;
 }
