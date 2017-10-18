@@ -1,7 +1,6 @@
 @import "scss/variables";
 
 header {
-  // max-width: $max-width;
   width: 100%;
   margin-bottom: 2em;
   align-items: center;
@@ -18,7 +17,7 @@ header {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
 
-   a {
+    a {
       color: #fff;
       text-align: center;
       text-decoration: none;
