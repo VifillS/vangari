@@ -8,11 +8,11 @@ footer {
   color: #fff;
   flex-direction: column;
   background-color: #262626;
-  @media (max-width:600px) {
-    text-align: center;
+  @media (max-width: 600px) {
     font-size: 14px;
+    text-align: center;
   }
-  @media (max-width:400px) {
+  @media (max-width: 400px) {
     font-size: 12px;
   }
 
@@ -27,11 +27,11 @@ footer {
       flex-direction: column;
       align-content: flex-start;
       align-items: center;
-      @media (max-width:600px) {
+      @media (max-width: 600px) {
         padding: 0 2*$gutter;
       }
-      @media (max-width:400px) {
-        padding: 0 $gutter;        
+      @media (max-width: 400px) {
+        padding: 0 $gutter;
       }
     }
   }

@@ -1,33 +1,34 @@
 @import 'scss/variables';
+
 .text {
-  margin-bottom: $gutter;
   padding-bottom: $gutter;
+  margin-bottom: $gutter;
 
   &__p {
+    margin-top: $gutter;
     margin-bottom: $gutter;
-    margin-top: $gutter;    
   }
 
   .quote {
-    float: right;
-    // padding: $gutter;
+    float: right; // padding: $gutter;
     margin: 0 $gutter/2;
     font-size: 1.5em;
     font-style: italic;
-    & .content{
+
+    .content {
       padding: $gutter;
     }
   }
 
-  .footnote{
-    font-size: 14px;   
+  .footnote {
+    margin: $gutter 0;
+    font-size: 14px;
     font-style: normal;
-    margin:  $gutter 0;
   }
-
 }
+
 article {
-  @media (max-width:600px) {
-    margin:0 $gutter;
+  @media (max-width: 600px) {
+    margin: 0 $gutter;
   }
 }

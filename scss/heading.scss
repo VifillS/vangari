@@ -1,32 +1,37 @@
 @import 'scss/variables';
 
 .heading {
+  width: 100%;
+  padding: 0;
+  margin: $gutter 0;
   font-family: $hfont;
   font-size: 2rem;
-  padding: 0;
-  width: 100%;
-  margin: $gutter 0 ;
-  &--one {
-    word-break: break-all;
-    font-size: 3rem;
-    &--front{
-      font-size: 4rem;
-      padding-bottom: 2 * $gutter;
 
+  &--one {
+    font-size: 3rem;
+    word-break: break-all;
+
+    &--front {
+      padding-bottom: 2 * $gutter;
+      font-size: 4rem;
     }
   }
+
   &--two {
     font-size: 2rem;
   }
+
   &--three {
     font-size: 1rem;
   }
+
   &--bold {
     font-weight: bold;
   }
+
   &--italic {
+    font-size: 1.5rem;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.5rem;
   }
 }
