@@ -16,13 +16,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
-    background-color: rgba(0,0,0,.8);
-    position: fixed;
-    top: 0; // max-width: $max-width;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
 
-    a {
+   a {
       color: #fff;
       text-align: center;
       text-decoration: none;
@@ -36,11 +32,11 @@ header {
   }
 
   .item--right {
-      padding: 0.5em 1em;
+    padding: 0.5em 1em;
   }
 
   .button--header {
-    background-color: #817A7A;
+    background-color: #817a7a;
     border-radius: 4px;
   }
 }

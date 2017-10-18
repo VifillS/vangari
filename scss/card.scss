@@ -1,53 +1,61 @@
 @import 'scss/variables';
+
 .card {
+  display: flex;
   width: 100%;
   min-width: 200px;
   max-width: 800px; // margin: auto;
   overflow: hidden;
-  display: flex;
+  font-family: $mfont;
   flex-direction: column;
   align-items: center;
-  font-family: $mfont;
+
   &__wide {
     display: flex;
-    flex-direction: row;
     height: 160px;
-       &__heading {
-          // width: 100%;
-          font-size:1.5rem;
-         margin-bottom: 0;
-        }
-         &__content {
-           align-content: center;
-          width: 500px;
-         }
-         &__img {
-           width: $gutter*5;
-           padding: $gutter;
-         }
-        &__text {
-          // text-align: start;
-          padding: 0;
-       }
+    flex-direction: row;
+
+    &__heading {
+      margin-bottom: 0;
+      font-size: 1.5rem;
+    }
+
+    &__content {
+      align-content: center;
+      width: 500px;
+    }
+
+    &__img {
+      width: $gutter*5;
+      padding: $gutter;
+    }
+
+    &__text {
+      padding: 0;
+    }
   }
+
   &__heading {
-    // width: 100%;
     font-size: 1rem;
   }
+
   &__content {
+    text-align: center;
     flex-direction: column;
     align-content: center;
-    text-align: center;
   }
+
   &__text {
     padding: $gutter/2;
   }
+
   &__img {
     width: 100%;
-    padding: $gutter;
     min-width: 200px;
+    padding: $gutter;
     border-radius: 50%; // margin: $gutter/2;
   }
+
   &__footnote {
     font-size: 12px;
     color: #999;
