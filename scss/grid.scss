@@ -1,4 +1,4 @@
-@import 'scss/variables';
+@import "scss/variables";
 
 .row {
   display: flex;
@@ -117,6 +117,7 @@
       }
     }
   }
+
   &-sss {
     @media (max-width: 600px) {
       &-12 {
@@ -124,6 +125,7 @@
       }
     }
   }
+
   &-ss {
     @media (max-width: 400px) {
       &-12 {
@@ -191,10 +193,10 @@
       &-0 {
         margin-left: 0;
       }
+
       &-1 {
         margin-left: (1 / 12 * 100) * 1%;
       }
-
     }
   }
 }
