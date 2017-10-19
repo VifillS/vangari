@@ -17,7 +17,7 @@ $ cd vangari
 
 ## Usage
 
-Make sure you have node.js installed. To start a local preview of the website run the following command at the root of the directory you just cloned.
+Make sure you have [node.js](https://nodejs.org) installed. To start a local preview of the website run the following command at the root of the directory you just cloned.
 
 ```
 $ npm run dev
