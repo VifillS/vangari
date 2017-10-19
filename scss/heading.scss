@@ -19,6 +19,10 @@
 
   &--two {
     font-size: 2rem;
+
+    @media (max-width: 450px) {
+      font-size: 1.5rem;
+    }
   }
 
   &--three {
