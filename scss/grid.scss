@@ -123,6 +123,10 @@
       &-12 {
         @include columns(12);
       }
+
+      &-6 {
+        @include columns(6);
+      }
     }
   }
 
